@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  background-color: #f2ead2;
+  color: #1b1912;
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+}
+
+.page {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+
+.banniere {
+  background-color: #1e3d34;
+  border: 2px solid #3f6656;
+  border-radius: 6px;
+  text-align: center;
+  padding: 14px 10px 10px;
+  margin-bottom: 10px;
+}
+
+
+nav {
+  background-color: #1e3d34;
+  border: 2px solid #3f6656;
+  border-radius: 6px;
+  text-align: center;
+  padding: 8px 0;
+  margin-bottom: 0px;
+}
+
+nav a {
+  color: #e4cd8f;
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 4px 50px;
+  margin: 0 4px;
+  border-radius: 3px;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+
+nav a.actif {
+  background-color: #cfcac3;
+  color: #1e3d34;
+}
+
+
+.titre-section {
+  background-color: #1e3d34;
+  border: 2px solid #3f6656;
+  border-radius: 6px;
+  color: #e4cd8f;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+  padding: 8px;
+  margin: 10px 0 10px;
+}
+
+
+.grille-accueil {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.bloc-accueil {
+  background-color: #1e3d34;
+  color: #e4cd8f;
+  border-radius: 4px;
+  padding: 18px;
+  min-height: 170px;
+}
+
+.bloc-accueil h3 {
+  color: #e4cd8f;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.bloc-accueil p {
+  font-size: 14px;
+  color: #d8d0b8;
+}
+
+
+.grille-perso {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.carte-perso img {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.grille-jeux {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  color: #6b6650;
+}
+
+.vignette img {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.vignette img:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+}
+
+.grille-perso2 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px;
+}
